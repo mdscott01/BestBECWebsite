@@ -1,0 +1,107 @@
+/**Logo in top left**/
+#logo {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+/**navigation bar**/
+nav {
+    background-color: rgb(212, 179, 68);
+    list-style-type:none;
+}
+/**this edits the li items that are in ol and in nav and puts them on one line**/
+nav ol li {
+    display:inline-block;
+    color:white;
+    margin-left:213px;
+    background-color:rgb(207, 205, 198);   
+    
+    
+}
+
+
+/**when hovering over it will change color**/
+nav a:hover{
+    background-color: rgb(47, 206, 255);
+    
+}
+/**this aligns my h1 header to be in the center of the page**/
+h1{
+    text-align: center;
+    margin-bottom:-30px;
+    margin-top:-30px;
+    padding-bottom:10px;
+    
+}
+
+/**this edits the color of the background for the header**/
+ header{
+     background-color: rgb(212, 179, 68);
+     
+     
+ }
+/**this edits the background color of the footer and the color of the text**/
+ footer{
+     background-color:black;
+     color: white;
+     text-align: center;
+     position:relative;
+     bottom:0px;
+     
+ }
+
+ /**this aligns the input and labels on the rate page to the right and leaves some space on the right**/
+ .container {
+     text-align: right;
+     padding-right:50px;
+     background-color: white;
+ }
+
+/**this aligns the contact us and everything in that div to the left of the page as well as changes the background color**/
+ #row2{
+     background-color:rgb(212, 179, 68);
+     color: black;  
+     right:0px;
+     width:350px;
+     border:3px solid black;
+     
+     
+
+ }
+/**this aligns the text on my info page to the center and places a 10px padding around the text using .right class**/
+ .right{
+    
+    
+     height:150px;
+     padding:10px;
+     border: 2px solid black;
+     background-color: white;
+
+     margin: auto;
+     width: 50%;
+
+
+     
+ }
+/**this was used to make take up space**/
+ .opacity {
+     padding-top:100px;
+     text-align:center;
+ }
+
+ .infop {
+     font-family: Arial, sans-serif;
+     font-size: 17px;
+ }
+
+ #formstyle {
+     float:left;
+     color:black;
+     background-color: white;
+ }
+
+ 
+ 
+
